@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightbrown"
+    android:padding="16dp">
+
+    <!-- Pizza Size -->
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Pizza Size:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small"/>
+
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"/>
+
+        <RadioButton
+            android:id="@+id/radioLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large"/>
+    </RadioGroup>
+
+    <!-- Toppings -->
+    <TextView
+        android:id="@+id/textViewToppings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Toppings:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupToppings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioPepperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pepperoni"/>
+
+        <RadioButton
+            android:id="@+id/radioMushrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mushrooms"/>
+
+        <RadioButton
+            android:id="@+id/radioGreenPeppers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Peppers"/>
+    </RadioGroup>
+
+    <!-- Drinks -->
+    <TextView
+        android:id="@+id/textViewDrinks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Drinks:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDrinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioCocaCola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coca-Cola"/>
+
+        <RadioButton
+            android:id="@+id/radioSprite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sprite"/>
+
+        <RadioButton
+            android:id="@+id/radioRootBeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Root Beer"/>
+    </RadioGroup>
+
+    <!-- Dips -->
+    <TextView
+        android:id="@+id/textViewDips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Dip::"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioCreamyGarlic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creamy Garlic"/>
+
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/checkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkout" />
+
+
+</LinearLayout>
